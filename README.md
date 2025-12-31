@@ -2,21 +2,27 @@
 # Login & Registration System (Frontend)
 
 This project is a **basic Login and Registration system frontend** built using **HTML, CSS, and JavaScript**.
-It focuses on form structure, client-side validation, and clean UI design.
+The project structure is adjusted to support **GitHub Pages hosting**.
 
-> 🚀 **Backend integration using C++ is planned and will be added soon.**
+> 🚀 **C++ backend integration is planned and will be added in upcoming updates.**
 
 ---
 
 ## 📁 Project Structure
 
 ```
-public/
-│── index.html      # Registration page
-│── login.html      # Login page
-│── style.css       # Styling for both pages
-│── script.js       # Client-side validation logic
+/
+│── index.html        # Entry point (required for GitHub Pages)
+│
+└── public/
+    │── login.html    # Login page
+    │── style.css     # Styling for all pages
+    │── script.js     # Client-side validation logic
 ```
+
+### 📌 Why `index.html` is outside `public/`?
+
+GitHub Pages requires the main `index.html` file to be at the **root level** of the repository to serve the site correctly.
 
 ---
 
@@ -24,65 +30,68 @@ public/
 
 ### 🔐 Registration
 
-* Username input
-* Password & Confirm Password
+* Username, Password & Confirm Password
 * Client-side validations:
 
   * Empty field check
-  * Minimum password length (6 characters)
+  * Password length validation
   * Password match verification
 
 ### 🔑 Login
 
-* Username and password input
+* Username and password fields
 * Client-side validation
-* Ready for backend authentication integration
+* Ready for backend authentication
 
 ---
 
 ## 🛠️ Technologies Used
 
-* **HTML5** – Structure of pages
-* **CSS3** – Styling and layout
-* **JavaScript (Vanilla JS)** – Form validation & logic
+* **HTML5**
+* **CSS3**
+* **JavaScript (Vanilla JS)**
 
 ---
 
-## ⚙️ How to Run the Project
+## ⚙️ How to Run Locally
 
 1. Clone the repository:
 
    ```bash
    git clone <your-repo-url>
    ```
-2. Open the project folder
-3. Open `index.html` in your browser
-
-No server setup is required for now.
+2. Open `index.html` in any modern browser
 
 ---
 
-## 🚧 Upcoming Features (Planned)
+## 🌐 Live Demo (GitHub Pages)
 
-### 🔥 C++ Backend Integration
+After enabling GitHub Pages:
 
-* File-based database
+```
+https://<your-username>.github.io/<repository-name>/
+```
+
+---
+
+## 🚧 Upcoming Features
+
+### 🔥 C++ Backend (Planned)
+
+* File-based user database
 * Password hashing
-* User authentication
-* Secure login & registration handling
-* Communication between frontend and C++ backend
-
-> This project will evolve into a **full-stack system using C++ as the backend**.
+* Authentication logic
+* Frontend ↔ C++ backend communication
+* Secure login & registration flow
 
 ---
 
-## 📌 Learning Objectives
+## 🎯 Learning Objectives
 
-* Frontend form handling
-* JavaScript validation
+* Frontend form validation
 * Clean project structure
-* Preparing frontend for backend integration
-* Understanding authentication flow
+* GitHub Pages deployment
+* Preparing frontend for a C++ backend
 
 ---
 
@@ -91,4 +100,11 @@ No server setup is required for now.
 **B Rohit Kumar**
 B.Tech CSE (2025)
 
+---
+
+### ✅ Next suggested steps
+
+* Add a `backend/` folder for C++ code
+* Document API endpoints (even before implementation)
+* Connect JS → C++ using HTTP or file-based I/O
 
