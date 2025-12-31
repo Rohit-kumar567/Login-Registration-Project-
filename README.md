@@ -1,9 +1,3 @@
-Great work on setting up the **public folder** 👍
-Based on the files you shared (`index.html`, `login.html`, `style.css`, `script.js`), here’s a **clean GitHub-ready README.md** that also clearly mentions your **upcoming C++ backend**.
-
-You can copy-paste this directly into `README.md` 👇
-
----
 
 # Login & Registration System (Frontend)
 
