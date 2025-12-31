@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link rel="stylesheet" href="./Public/style.css">
+</head>
+<body>
+    <h1>Login & Registration System</h1>
+    <section id="register">
+        <h2>Register</h2>
+        <form id="reg_form">
+            <label for="reg_username">Username</label>
+            <input type="text" name="username" id="reg_username" required>
+
+            <label for="reg_password">password</label>
+            <input type="password" name="password" id="reg_password" required>
+
+            <label for="reg_confirm_password">Confirm Password</label>
+            <input type="password" name="confirm_password" id="reg_confirm_password" required>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <p>New here <a href="./Public/login.html">login</a></p>
+    <p id="message"></p>
+    <script src="./Public/script.js"></script>
+</body>
+</html>
