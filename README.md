@@ -69,7 +69,7 @@ GitHub Pages requires the main `index.html` file to be at the **root level** of 
 After enabling GitHub Pages:
 
 ```
-https://<your-username>.github.io/<repository-name>/
+[https://<your-username>.github.io/<repository-name>/](https://rohit-kumar567.github.io/Login-Registration-Project-/)
 ```
 
 ---
